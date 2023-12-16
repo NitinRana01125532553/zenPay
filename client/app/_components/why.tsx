@@ -2,7 +2,7 @@ const Why = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-10 p-10">
       <h1 className="text-6xl font-bold text-center text-white font-sans">
-        Why Choose Us?
+        Why Choose <span className="grad2">Us?</span>
       </h1>
       <div className="flex flex-row w-[95%] bg-[#0F0F0F] text-white mt-10 p-14 rounded-3xl">
         {/* left */}
